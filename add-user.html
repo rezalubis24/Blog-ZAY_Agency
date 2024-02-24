@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Multipage Blog Website</title>
+
+    <!-- customize css -->
+    <link rel="stylesheet" href="style.css">
+    <!-- icon -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <!-- GFONTS | Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Noto+Sans+Tamil:wght@300;400;500&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <!-- Navbar -->
+        <nav>
+            <div class="container nav__container">
+                <a href="index.html" class="nav__logo">ZAY DIGITAL</a>
+                <ul class="nav__items" id="navbar">
+                </ul>
+                
+                <button id="open__nav-btn"><i class="uil uil-bars"></i></button>
+                <button id="close__nav-btn"><i class="uil uil-multiply"></i></button>
+            </div>
+            
+        </nav>
+    </header>
+    <!-- Navbar End -->
+
+
+
+    <!-- add Post -->
+    <section class="form__section">
+      <div class="container form__section-container">
+        <h2>Add User</h2>
+        <div class="alert__message error">
+          <p>This is an error message</p>
+        </div>
+
+        <form action="" enctype="multipart/form-data">
+            <input type="text" placeholder="First Name">
+            <input type="text" placeholder="Last Name">
+            <input type="text" placeholder="Username">
+            <input type="text" placeholder="Email">
+            <input type="text" placeholder="Create Password">
+            <input type="text" placeholder="Confirm Password">
+
+            <select>
+                <option value="0">Author</option>
+                <option value="1">Admin</option>
+            </select>
+  
+            <div class="form__control">
+              <label for="avatar">User Avatar</label>
+              <input type="file" name="" id="avatar">
+            </div>
+            <button type="submit" class="btn">Add User</button>
+          </form>
+      </div>
+    </section>
+
+
+
+
+    <footer id="footer">
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
